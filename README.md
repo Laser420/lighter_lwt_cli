@@ -46,9 +46,9 @@ python lighter_cli.py
 ## Menu Options
 
 **After Authentication:**
-1. **Market Open** - Create new positions
-2. **Market Close** - Close existing positions  
-3. **View Positions** - Overview of all positions
+1. **Market Open** - Create new positions - also used for increasing existing position size
+2. **Market Close** - Close existing positions - also used for decreasing existing position size
+3. **View Positions** - Overview of all positions including size, leverage, direction and PnL
 4. **Re-authenticate** - Redo the authentication process
 5. **Exit** - Close application
 
