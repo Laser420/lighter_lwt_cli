@@ -61,5 +61,6 @@ python lighter_cli.py
 
 ## Support
 
-For issues or questions, please check the `llm_context.md` file for detailed technical information. 
+For issues or questions, please check the `llm_context.md` file for detailed technical information. Or have your AI assistant check that file, but make sure it doesn't hallucinate.
+
 
