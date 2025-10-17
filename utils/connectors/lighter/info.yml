@@ -1,0 +1,10 @@
+dex_name: "lighter"
+has_sdk: true
+sdk_link: "https://github.com/elliottech/lighter-python"
+dev_docs: "https://apidocs.lighter.xyz/docs/get-started-for-programmers-1"
+chain: "Arbitrum"
+notes: "Order book-based perpetuals DEX"
+min_order_size_usd: "Different denominations depending on asset, each one slightly different specifics"
+
+AccountTypes: "https://apidocs.lighter.xyz/docs/account-types"
+ATCont: "Need to decide whether to opt into the premium account API and pay fees for lower latency?"
