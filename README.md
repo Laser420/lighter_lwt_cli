@@ -1,6 +1,7 @@
 # Lighter CLI
 
-A command-line interface for trading on Lighter DEX (Arbitrum). Simple, interactive, and powerful.
+A command-line interface for trading on Lighter DEX. Vibe-coded using components from a more sophisticated bot. Does what it offers
+Please note that the one time this has failed is when both this CLI and the Lighter UI are authenticated at the same time. It gets confused. I think it's because the Lighter backend needs to predict nonces and it can't do that if two things may generate the same nonce.
 
 ## Quick Start
 
@@ -40,20 +41,13 @@ python lighter_cli.py
 
 ## Features
 
-- 🔐 **Secure Authentication** - Setup required before trading
-- 📈 **Market Orders** - Buy/sell with custom leverage and slippage
-- 👁️ **Position Overview** - View all positions with real-time PnL
-- ⚡ **Quick Close** - Partial or full position closing
-- 🛡️ **Input Validation** - Prevents accidental trades
-- 🧹 **Clean Interface** - No debug noise, just essential info
-
 ## Menu Options
 
 **After Authentication:**
 1. **Market Open** - Create new positions
 2. **Market Close** - Close existing positions  
 3. **View Positions** - Overview of all positions
-4. **Re-authenticate** - Setup new API keys
+4. **Re-authenticate** - Redo the authentication process
 5. **Exit** - Close application
 
 ## Safety Features
@@ -62,9 +56,8 @@ python lighter_cli.py
 - Input validation for all parameters
 - Real-time price display before execution
 - Position verification before closing
-- Comprehensive error handling
 
 ## Support
 
-For issues or questions, please check the `llm_context.md` file for detailed technical information.
+For issues or questions, please check the `llm_context.md` file for detailed technical information. 
 
