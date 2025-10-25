@@ -2,7 +2,7 @@
 
 A command-line interface for trading on Lighter DEX. Vibe-coded using components from a more sophisticated bot I've made. Does what it offers.
 
-Please note that the one time this has failed is when both this CLI and the Lighter UI are authenticated at the same time. It gets confused. I think it's because the Lighter backend needs to predict nonces and it can't do that if two things may generate the same nonce.
+Please note that the one time this has failed is when both this CLI and the Lighter UI are authenticated at the same time with the same IP address. It gets confused. I think it's because the Lighter backend needs to predict nonces and it can't do that if two things may generate the same nonce.
 
 ### No warranties are made. Use both this tool and Lighter at your own risk, with non-essential funds
 
